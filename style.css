@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a,
+h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: white;
+}
+
+header,
+footer {
+    height: 100px;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(44, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+canvas {
+    height: 600px;
+    width: 1450px;
+    filter: blur(-5px);
+}
